@@ -1,0 +1,4 @@
+2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* supervisord.conf (inet_http_server): Added inet_http_server
+	section - WITHOUT username or password. Uncommented all parts.
