@@ -1,3 +1,12 @@
 2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
-	* buildout.cfg (download-cache/eggs-directory): Specify eggs directory.
+	* local_develop.cfg:
+	(extends): Change path and version: /CWI_buildout/4.3.4/
+
+	* local_production.cfg
+	(extends): Change path and version: /CWI_buildout/4.3.4/
+	(backupdir/vardir): Reassign backup and var directories.
+
+	* buildout.cfg
+	(download-cache/eggs-directory): Specify eggs directory.
+	(sources): Replaced starzel_buildout with cwi_buildout.
