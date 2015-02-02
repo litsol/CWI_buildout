@@ -1,0 +1,4 @@
+2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* haproxy.cfg
+	(global): Commented out user, group and chroot assignments.
