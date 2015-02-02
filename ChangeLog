@@ -1,0 +1,22 @@
+2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* local_production.cfg
+	(buildout): Uncommented zeo-ha, varnish and supervisor
+	parts. Added eggs for ldap, sub-sites, i.e., lineage,
+
+	* pinned_versions_project.cfg
+	(versions): Added pinned versions for a additional eggs (development).
+	(versions): Identical for production.
+
+	* local_develop.cfg:
+	(extends): Change path and version: /CWI_buildout/4.3.4/
+	(buildout): Uncomment debugging eggs. Add eggs for ldap,
+	sub-sites, i.e., lineage, twitter and workspaces.
+
+	* local_production.cfg
+	(extends): Change path and version: /CWI_buildout/4.3.4/
+	(backupdir/vardir): Reassign backup and var directories.
+
+	* buildout.cfg
+	(download-cache/eggs-directory): Specify eggs directory.
+	(sources): Replaced starzel_buildout with cwi_buildout.
