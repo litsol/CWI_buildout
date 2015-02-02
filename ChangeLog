@@ -7,6 +7,7 @@
 	(extends): Change path and version: /CWI_buildout/4.3.4/
 	(buildout): Uncomment debugging eggs. Add eggs for ldap,
 	sub-sites, i.e., lineage, twitter and workspaces.
+	(eggs): Uncommented Products.PDBDebugMode.
 
 	* local_production.cfg
 	(extends): Change path and version: /CWI_buildout/4.3.4/
