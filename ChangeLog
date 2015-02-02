@@ -3,6 +3,7 @@
 	* local_production.cfg
 	(buildout): Uncommented zeo-ha, varnish and supervisor
 	parts. Added eggs for ldap, sub-sites, i.e., lineage,
+	(eggs): Forgot to uncomment egg assigment statement.
 
 	* pinned_versions_project.cfg
 	(versions): Added pinned versions for a additional eggs (development).
