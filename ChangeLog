@@ -1,3 +1,10 @@
+2015-02-03  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* local_develop.cfg (eggs): Added beyondskins.responsive egg.
+
+	* pinned_versions_project.cfg (theme): Added pin for
+	  beyondskins.responsive theme (pypi).
+
 2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* local_production.cfg
