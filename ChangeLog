@@ -1,3 +1,9 @@
+2015-02-04  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* local_develop.cfg (auto-checkout): Add auto-checkout wildcard to
+	  checkout everyghing enumerated under sources. mr.developer
+	  included in base.cfg.
+
 2015-02-03  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* local_develop.cfg (eggs): Added beyondskins.responsive egg.
