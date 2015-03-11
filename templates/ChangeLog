@@ -1,3 +1,10 @@
+2015-03-11  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* supervisord.conf On second thought, remove the inet_http_server
+	section.
+
+	* haproxy.cfg: Use itf-zope as user and group names.
+
 2015-02-02  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* haproxy.cfg

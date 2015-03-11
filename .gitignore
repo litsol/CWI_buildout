@@ -3,15 +3,30 @@
 # Packages
 *.egg
 *.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
 .installed.cfg
+
+# emacs backup files
+*~
+
+# directories
+backup
+bin
+build
+buildout-cache
+develop-eggs
+dist
+eggs
+etc
+include
+lib
+lib64
+local
+parts
+sdist
+src
+src-mrd
+var/*
+!var/instance/
 
 # Installer logs
 pip-log.txt
@@ -32,7 +47,5 @@ secret.cfg
 
 # Codeintel
 .codeintel
-etc/
-include/
-lib/
-local/
+
+#finis

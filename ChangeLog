@@ -1,7 +1,45 @@
+2015-03-11  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* buildout.cfg (languages): Change default language to english.
+	  Change the project name portals.
+
+	* .gitignore: Do not ignore var/instance - where jbot templates go.
+
+	* local_develop.cfg (eggs): Removed fourdigits.portlet.twitter,
+	plonesocial.twitter.anywhere and collective.workspace.
+	(eggs): Added collective.jbot and Products.LoginLockout.
+
+	* local_production.cfg (eggs): Removed fourdigits.portlet.twitter,
+	plonesocial.twitter.anywhere and collective.workspace.
+	(buildout) Uncommented cron-parts, backup and logrotate.
+	(eggs): Added collective.jbot and Products.LoginLockout.
+	(eggs): (notification_mail): Replaced team@starzel.de with guravage@cwi.nl.
+	(ports): New port numbers.
+	(bindips): bind instance to 127.0.0.1.
+
+	* pinned_versions_project.cfg
+	(versions): Removed dependencies:
+	fourdigits twitter protlet
+	    fourdigits.portlet.twitter = 0.9.1
+	    oauth2 = 1.5.211
+	    httplib2 = 0.9
+	PloneSocial's twitter anywhere package
+	    plonesocial.twitter.anywhere = 0.1
+	    uuid = 1.30
+	Workspaces
+	    collective.workspace = 1.1
+
+	(versions): Added dependencies:
+	Login Lockout
+	    Products.LoginLockout = 0.3.3
+	Just a bunch of templates (JBOT)
+	    collective.jbot = 1.0a3
+	    z3c.jbot = 0.7.2
+
 2015-02-04  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
 	* local_develop.cfg (auto-checkout): Add auto-checkout wildcard to
-	  checkout everyghing enumerated under sources. mr.developer
+	  checkout everything enumerated under sources. mr.developer
 	  included in base.cfg.
 
 2015-02-03  Michael Guravage  <guravage@weddell.itf.cwi.nl>
