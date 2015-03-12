@@ -1,5 +1,7 @@
 2015-03-12  Michael Guravage  <guravage@weddell.itf.cwi.nl>
 
+	* pinned_versions_project.cfg (MarkupSafe): mr.bob depends on: MarkupSafe = 0.23.
+
 	* local_production.cfg (notification_mail): Use new alias: portals@cwi.nl.
 
 2015-03-11  Michael Guravage  <guravage@weddell.itf.cwi.nl>
