@@ -38,6 +38,7 @@ secret.cfg
 etc/
 include/
 lib/
+lib64
 local/
 
 .idea/
