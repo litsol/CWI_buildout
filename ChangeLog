@@ -1,0 +1,4 @@
+2016-08-10    <plone@localhost>
+
+	* local_develop.cfg: removed @ from cwi.transmogrifier reporitory url.
+
